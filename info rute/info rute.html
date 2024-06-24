@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Route Info</title>
+    <link rel="stylesheet" href="info rute sytle..css">
+</head>
+<body>
+    <span class="container">
+        <h1>Bus Route Info</h1>
+        <span class="search-container">
+            <label for="koridor-search">Cari Koridor:</label>
+            <input type="text" id="koridor-search" onkeyup="searchKoridor()">
+        </span>
+        <table id="koridor-table">
+            <thead>
+                <tr>
+                    <th>Koridor</th>
+                    <th>Jam Operasional</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Koridor 1</td>
+                    <td>04:30-19:21 WIB</td>
+                </tr>
+                <tr>
+                    <td>Koridor 2</td>
+                    <td>05:00-19:32 WIB</td>
+                </tr>
+                <tr>
+                    <td>Koridor 3</td>
+                    <td>05:00-19:01 WIB</td>
+                </tr>
+                <tr>
+                    <td>Koridor 4</td>
+                    <td>04:30-19:18 WIB</td>
+                </tr>
+                <tr>
+                    <td>Koridor 5</td>
+                    <td>04:30-20:01 WIB</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Info Rute</h2>
+        <table id="route-table">
+            <thead>
+                <tr>
+                    <th>Koridor</th>
+                    <th>Route</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>KM 1</td>
+                    <td>Pinangbaris-Lapangan merdeka</td>
+                </tr>
+                <tr>
+                    <td>KM 2</td>
+                    <td>Terminal amplas-Lapangan merdeka</td>
+                </tr>
+                <tr>
+                    <td>KM 3</td>
+                    <td>Belawan-Lapangan merdeka</td>
+                </tr>
+                <tr>
+                    <td>KM 4</td>
+                    <td>Tuntungan-Lapangan merdeka</td>
+                </tr>
+                <tr>
+                    <td>KM 5</td>
+                    <td>Belawan-Lapangan merdeka</td>
+                </tr>
+            </tbody>
+        </table>
+    </span>
+    <script src="scripts.js"></script>
+</body>
+</html>

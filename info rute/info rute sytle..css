@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+ 
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ 
+h1, h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+ 
+.search-container {
+    margin: 20px 0;
+    text-align: center;
+}
+ 
+#koridor-table, #route-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+ 
+#koridor-table th, #route-table th, #koridor-table td, #route-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+ 
+#koridor-table th, #route-table th {
+    background-color: green
+}
